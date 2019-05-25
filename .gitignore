@@ -1,0 +1,8 @@
+/rust/target
+**/*.rs.bk
+
+.vscode
+/csharp/RustIntegration/.vs
+
+**/bin
+**/obj

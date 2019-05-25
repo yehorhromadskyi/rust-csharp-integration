@@ -1,0 +1,16 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["Yehor Hromadskyi <yhromadskyi@exadel.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type=["dylib"]
+
+[dependencies]
+libc = "0.2"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"

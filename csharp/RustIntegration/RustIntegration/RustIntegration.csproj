@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+    <None Remove="librust.dylib" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="librust.dylib">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
